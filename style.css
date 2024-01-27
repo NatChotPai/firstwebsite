@@ -1,0 +1,55 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
+.menu{
+    height: 100px;
+}
+
+.carousel-item{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.carousel-image-1{
+    background-image: url("image/1-Ola-Santorini-Greece.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url("image/1-Ola-Santorini-Greece-2.jpg");
+}
+
+.carousel-image-3{
+    background-image: url("image/2-Tajmahal-India-2.jpg");
+}
+
+.carousel-image-4{
+    background-image: url("image/2-Tajmahal-India.jpg");
+}
+
+.carousel-image-5{
+    background-image: url("image/4-Grand-Canyon-National-Park-United-States.jpg");
+}
+
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url("image/2-Tajmahal-India-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
